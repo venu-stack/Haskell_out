@@ -9,3 +9,8 @@ greterthan n
     |n>=0 = "number greater than 0 :)"
     | otherwise = "number less than 0 :("
  
+maxi :: Int-> Int -> Int 
+maxi x y
+    |x >= y = x
+    |otherwise = y
+    
